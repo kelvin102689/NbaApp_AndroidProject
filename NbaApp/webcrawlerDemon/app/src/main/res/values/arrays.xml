@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stats">
+        <item>PPG</item>
+        <item>3FGM</item>
+        <item>3FGA</item>
+        <item>3FG%</item>
+    </string-array>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/rowPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgContext"
+            android:layout_width="30dp"
+            android:layout_height="30dp"></ImageView>
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="120dp"
+            android:text="Name"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/Team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="60dp"
+            android:text="Team"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/GP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="60dp"
+            android:text="GP"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/PPG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="60dp"
+            android:text="PPG"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/FGP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="60dp"
+            android:text="FGP"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/ThreeFGM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="60dp"
+            android:text="ThreeFGM"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/ThreeFGA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="60dp"
+            android:text="ThreeFGA"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/ThreeFGP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="60dp"
+            android:text="ThreeFGP"
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/FTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="60dp"
+            android:text="FTP"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
